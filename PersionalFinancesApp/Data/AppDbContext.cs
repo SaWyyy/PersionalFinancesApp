@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PersionalFinancesApp.Models;
 
 namespace PersionalFinancesApp.Data
 {
@@ -9,5 +10,7 @@ namespace PersionalFinancesApp.Data
         {
 
         }
+
+        public DbSet<FinanceRecord> Finances { get; set; }
     }
 }
