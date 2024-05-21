@@ -31,6 +31,7 @@ namespace PersionalFinancesApp.Services.FinanceService
                 Description = record.Description,
                 Category = record.Category,
                 Price = record.Price,
+                Date = DateTime.Now.ToString("dd-MM-yyyy"),
                 UserId = userId
             };
 

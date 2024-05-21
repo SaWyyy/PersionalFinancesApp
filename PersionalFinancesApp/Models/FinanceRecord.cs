@@ -7,6 +7,7 @@
         public string Description { get; set; }
         public Category Category { get; set; }
         public double Price { get; set; }
+        public string? Date {  get; set; }
         public string? UserId { get; set; }
     }
 }
